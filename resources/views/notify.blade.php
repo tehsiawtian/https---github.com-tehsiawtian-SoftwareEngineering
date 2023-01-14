@@ -50,6 +50,8 @@
     #dash:hover{
         box-shadow: 0 0 30px rgba(0,0,0,0.4);
         transform: scale(1.1);
+        background: #2df71b;
+        border: 1px solid #2df71b;
 
     }
     
@@ -67,6 +69,8 @@
     #case:hover{
         box-shadow: 0 0 30px rgba(0,0,0,0.4);
         transform: scale(1.1);
+        background: #2df71b;
+        border: 1px solid #2df71b;
 
     }
 
