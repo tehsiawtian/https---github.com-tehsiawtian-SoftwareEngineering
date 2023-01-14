@@ -1,0 +1,17 @@
+/* Header */
+#bg1 {
+    background-image: url("../views/images/complaint.jpg");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bgcon {
+    padding: 10.3% 16%;
+}
+
+#bgcon h1 {
+    font-size: 4.75vw;
+    font-weight: bold;
+    color: black;
+}
