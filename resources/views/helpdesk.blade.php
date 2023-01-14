@@ -148,7 +148,7 @@ p{
                     <div class="col">
                         <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label bold">Description</label>
-                            <textarea name="complaint_desc" class="form-control border border-2 border-secondary" id="exampleFormControlTextarea1" rows="12" value="" {{@$edit ? 'disabled':''}}>{{@$case->complaint_desc}}</textarea>
+                            <textarea name="complaint_desc" class="form-control border border-2 border-secondary" id="exampleFormControlTextarea1" rows="12" value="" required {{@$edit ? 'disabled':''}}>{{@$case->complaint_desc}}</textarea>
                         </div>
                     </div>
                 <div>
@@ -162,7 +162,7 @@ p{
                         <div class="col-10">
                             <div class="mb-3">
                                 <label for="formFileMultiple" class="form-label bold">Relevant Photo and Video</label>
-                                <input type="file" name="student_file" class="form-control border border-2 border-secondary" id="formFileMultiple">
+                                <input type="file" name="student_file" class="form-control border border-2 border-secondary" id="formFileMultiple" required>
                             </div>
                         </div>
                         <div class="col-1"></div>
